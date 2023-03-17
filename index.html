@@ -7,6 +7,16 @@
 </head>
 <body>
 <h1>Tic Tac Toe</h1>
+<div id="scoreboard">
+    <div>
+        <span class="player-x">Player X:</span>
+        <span id="player-x-score">0</span>
+    </div>
+    <div>
+        <span class="player-o">Player O:</span>
+        <span id="player-o-score">0</span>
+    </div>
+</div>
 <div id="game-board">
     <div class="cell" data-cell></div>
     <div class="cell" data-cell></div>
@@ -20,6 +30,7 @@
 </div>
 <div id="status-message"></div>
 <button id="restart-button">Restart</button>
+<button id="reset-button">Reset Score</button>
 <script src="app.js"></script>
 </body>
 </html>
