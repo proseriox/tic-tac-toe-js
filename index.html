@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -28,6 +27,13 @@
     <div class="cell" data-cell></div>
     <div class="cell" data-cell></div>
 </div>
+<form id="names-form">
+    <label for="player-x-name-input">Player X Name:</label>
+    <input type="text" id="player-x-name-input" name="player-x-name-input">
+    <label for="player-o-name-input">Player O Name:</label>
+    <input type="text" id="player-o-name-input" name="player-o-name-input">
+    <button type="submit">Save Names</button>
+</form>
 <div id="status-message"></div>
 <button id="restart-button">Restart</button>
 <button id="reset-button">Reset Score</button>
